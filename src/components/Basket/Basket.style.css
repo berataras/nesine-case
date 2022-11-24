@@ -1,0 +1,111 @@
+.basket {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 500px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .basket {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+  }
+}
+.basket__heading {
+  background-color: #1A3C45;
+  font-weight: bolder;
+  color: white;
+  width: 100%;
+}
+.basket__heading__content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.basket__heading__button {
+  background-color: white;
+  color: #1A3C45;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+@media (min-width: 768px) {
+  .basket__heading__button {
+    display: none;
+  }
+}
+.basket__content {
+  overflow: hidden auto;
+  position: relative;
+  height: 100%;
+}
+.basket__content__card {
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.basket__content__card__match-name {
+  font-weight: bolder;
+}
+.basket__content__card__match-info {
+  color: #7D9FA4;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.basket__content__card__match-result {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.basket__content__card__match-result .button-basic, .basket__content__card__match-result .basket__content__card__match-result__ocn, .basket__content__card__match-result .basket__content__card__match-result__n {
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+.basket__content__card__match-result__n {
+  background-color: #EDE8E6;
+  color: black;
+}
+.basket__content__card__match-result__ocn {
+  background-color: #47656F;
+  color: white;
+}
+.basket__content .divider {
+  height: 50px;
+}
+.basket__footer {
+  background-color: #EDE8E6;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+  font-weight: bolder;
+}
+
+.showButton {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+@media (min-width: 768px) {
+  .showButton {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Basket.style.css.map */

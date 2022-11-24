@@ -1,0 +1,15 @@
+.content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 20px;
+  width: 100%;
+  margin-block: 50px;
+}
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    padding-inline: 20px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
