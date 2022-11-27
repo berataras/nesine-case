@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fe6eedd6-34c8-406b-9be0-9a893113db6f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableList/TableList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableList/TableList.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableRateButton/TableRateButton.test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +58,21 @@
       <recent name="C:\Users\berat\Desktop\nesine-case\src\data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
-    <configuration name="check data increase after click more data button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.check checkbox value">
+    <configuration name="check checkbox value" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/TableRateButton/TableRateButton.test.js" />
+      <test-names>
+        <test-name value="check checkbox value" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check data increase after click load more button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -69,11 +81,11 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/components/TableList/TableList.test.js" />
       <test-names>
-        <test-name value="check data increase after click more data button" />
+        <test-name value="check data increase after click load more button" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="check hide button of basket" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="check hide and show button of basket" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -82,24 +94,11 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/components/Basket/Basket.test.js" />
       <test-names>
-        <test-name value="check hide button of basket" />
+        <test-name value="check hide and show button of basket" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="check the first data count (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/TableList/TableList.test.js" />
-      <test-names>
-        <test-name value="check the first data count" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="check the work of hide cart button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="check show button of basket" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -108,7 +107,7 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/components/Basket/Basket.test.js" />
       <test-names>
-        <test-name value="check the work of hide cart button" />
+        <test-name value="check show button of basket" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -124,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.check checkbox value" />
+        <item itemvalue="Jest.check data increase after click load more button" />
+        <item itemvalue="Jest.check show button of basket" />
+        <item itemvalue="Jest.check hide and show button of basket" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="Jest.check the first data count (2)" />
-        <item itemvalue="Jest.check data increase after click more data button" />
-        <item itemvalue="Jest.check hide button of basket" />
-        <item itemvalue="Jest.check the work of hide cart button" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,7 @@
       <workItem from="1669131453512" duration="15711000" />
       <workItem from="1669312395862" duration="10499000" />
       <workItem from="1669357236598" duration="4000" />
-      <workItem from="1669475353945" duration="28356000" />
+      <workItem from="1669475353945" duration="31433000" />
     </task>
     <servers />
   </component>
