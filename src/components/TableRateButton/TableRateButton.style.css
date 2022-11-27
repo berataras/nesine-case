@@ -1,0 +1,27 @@
+.tableRateButton {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.tableRateButton__event-button {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.tableRateButton__event-radio {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+.tableRateButton__event-radio:checked + .tableRateButton__event-button {
+  background-color: #FBFF00;
+}
+
+/*# sourceMappingURL=TableRateButton.style.css.map */

@@ -1,7 +1,11 @@
-import List from "./List/List.jsx";
+import TableList from "./TableList/TableList.jsx";
 import Basket from "./Basket/Basket.jsx";
+import TableRateButton from "./TableRateButton/TableRateButton.jsx";
+import LoadMoreButton from "./LoadMoreButton/LoadMoreButton.jsx";
 
 export {
-    List,
-    Basket
+    TableList,
+    Basket,
+    TableRateButton,
+    LoadMoreButton
 }

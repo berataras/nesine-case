@@ -1,0 +1,24 @@
+.tableList {
+  width: 100%;
+}
+.tableList__list {
+  width: 100%;
+  background-color: white;
+  user-select: none;
+  border-collapse: collapse;
+  font-weight: 900;
+}
+.tableList__list th, .tableList__list td {
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  padding: 10px 15px;
+}
+.tableList__list th {
+  background-color: #7D9FA4;
+  color: white;
+  font-weight: 900;
+}
+.tableList__list td {
+  color: #28616B;
+}
+
+/*# sourceMappingURL=TableList.style.css.map */

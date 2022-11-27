@@ -1,0 +1,25 @@
+.tableList{
+  width: 100%;
+  &__list{
+    width: 100%;
+    background-color: white;
+    user-select: none;
+    border-collapse: collapse;
+    font-weight: 900;
+
+    th, td{
+      border: 2px solid rgba(0, 0, 0, 0.295);
+      padding: 10px 15px;
+    }
+
+    th{
+      background-color: #7D9FA4;
+      color: white;
+      font-weight: 900;
+    }
+
+    td{
+      color: #28616B;
+    }
+  }
+}

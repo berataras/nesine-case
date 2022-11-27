@@ -22,8 +22,8 @@ function Basket() {
                 </div>
 
                 <div className="basket__content">
-                    {value?.map(item => (
-                        <div className="basket__content__card">
+                    {value?.map((item, index) => (
+                        <div className="basket__content__card" key={index}>
                             <span className="basket__content__card__match-name">
                                 {item?.N}
                             </span>
@@ -46,7 +46,7 @@ function Basket() {
                 </div>
 
                 <div className="basket__footer">
-                    Toplam Tutar: {value.reduce((acc, item) => acc + parseFloat(item?.user?.O), 0)}
+                    Toplam Tutar: {value?.reduce((acc, item) => acc + parseFloat(item?.user?.O), 0)}
                 </div>
             </div> : <div className="showButton" onClick={() => setOpenBasket(true)}>Kuponlarım</div>
     );

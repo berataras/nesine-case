@@ -1,9 +1,8 @@
 import React, {useState} from "react";
-import ReactDOM from "react-dom";
 import "./styles/global.css"
 import "./styles/app.css"
 
-import {Basket, List} from "./components";
+import {Basket, TableList} from "./components";
 import ThemeContext from "./context/ThemeContext";
 
 function App () {
@@ -12,7 +11,7 @@ function App () {
        <ThemeContext.Provider value={[value, setValue]}>
            <div className="container">
                <div className="content">
-                   <List />
+                   <TableList />
                    <Basket />
                </div>
            </div>
@@ -20,4 +19,4 @@ function App () {
     )
 }
 
-ReactDOM.render(<App />, document.getElementById("app"));
+export default App;

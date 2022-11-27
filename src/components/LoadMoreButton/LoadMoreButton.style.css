@@ -1,0 +1,19 @@
+.loadMoreButton {
+  background-color: #1A3C45;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 300ms all;
+  width: 100%;
+  outline: none;
+  border: 0;
+}
+.loadMoreButton:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=LoadMoreButton.style.css.map */
