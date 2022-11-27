@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6eedd6-34c8-406b-9be0-9a893113db6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableList/TableList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/List.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableList/TableList.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/List.style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableList/TableList.style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/List.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableList/TableList.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/ThemeContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ThemeContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +28,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2HuOMK38CcLxM4xfqjHwsBecyo0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -68,7 +59,7 @@
       <recent name="C:\Users\berat\Desktop\nesine-case\src\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.check the first data count (2)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="check data increase after click more data button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -121,11 +112,11 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -133,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Jest.check the first data count (2)" />
         <item itemvalue="Jest.check data increase after click more data button" />
         <item itemvalue="Jest.check hide button of basket" />
         <item itemvalue="Jest.check the work of hide cart button" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +143,7 @@
       <workItem from="1669131453512" duration="15711000" />
       <workItem from="1669312395862" duration="10499000" />
       <workItem from="1669357236598" duration="4000" />
-      <workItem from="1669475353945" duration="20030000" />
+      <workItem from="1669475353945" duration="28356000" />
     </task>
     <servers />
   </component>
