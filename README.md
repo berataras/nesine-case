@@ -18,8 +18,6 @@ npm run start
 
 SSR (Server-side rendering)
 
-İlk kez NextJS yerine manuel ssr yaptığım için ssr sırasında css dosyalarını içeri aktaramadım. Bu çalıştırılıp inspect edildiğinde projenin dom’a doğru şekilde basıldığı görülebilir.
-
 ```html
 npm run dev
 ```
